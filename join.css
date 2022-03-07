@@ -1,0 +1,358 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+    background: url(../images/small1920.png) no-repeat;
+    width: 1920px;
+    height: 925px;
+    padding-left: 235px;
+    padding-right: 235px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+header{
+    display: flex;
+}
+.all{
+    display: flex;
+    width: 1450px;
+    margin-top: 150px;
+}
+.nav-menu li{
+    display: flex;
+    padding-top: 19px;
+}
+.ul1 a{
+    text-decoration: none;
+    color: rgba(43,35,61,1);
+    font-family: 'Fira Sans Condensed', sans-serif;
+    padding: 20px;
+    font-size: 24px;
+}
+.ul1 a:hover{
+    background-color: rgba(224, 215, 242,1);
+    border-radius: 10px;
+    font-weight: bold;
+}
+.dropbtn {
+    background-color: transparent;
+    color: rgba(43,35,61,1);
+    font-family: 'Fira Sans Condensed', sans-serif;
+    padding: 20px;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    margin-top: -20px;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 170px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+  }
+  
+  .dropdown-content a {
+    color: rgba(43,35,61,1);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 18px;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: rgba(224, 215, 242,1);
+    border-radius: 10px;
+    font-weight: bold;
+  }
+.sign-up-yazi{
+    width: 865px;
+    display: inline-block;
+}
+.login{
+    padding-left: 200px;
+    width: 585px;;
+    display: inline-block;
+}
+.create{
+    width: 650px;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 40px;
+    color: rgba(43,35,61,1);
+    font-weight: 400;
+    margin: auto;
+}
+.button{
+    margin-top: 30px;
+    width: 150px; ;
+    background-color: rgba(43,35,61,1);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 24px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    cursor: pointer;
+    display: block;
+    margin-left: 600px;
+  }
+  .button:hover{
+    margin-top: 30px;
+    width: 150px; ;
+    background-color: rgba(115, 88, 161,1);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    cursor: pointer;
+    display: block;
+    margin-left: 600px;
+  }
+  .giris{
+    font-family: 'Fira Sans', sans-serif;
+    color:rgba(224, 215, 242,1);
+    font-size: 40px;
+    margin-bottom: 35px;
+  }
+  .bilgi{
+    border-radius: 10px;
+    border: 1px solid rgba(224, 215, 242,1); 
+    background-color: transparent;
+    color: rgba(224, 215, 242,1);
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 18px;
+    padding: 15px;
+    width: 320px;
+  }
+
+
+  .field {
+    position: relative;
+    margin-top: 40px;
+  }
+  label {
+    position: absolute;
+    left: 0;
+    top: 1px;
+    transition: 0.2s ease all;
+    font-size: 15px;
+    color: gray;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 18px;
+    padding: 15px;
+  }
+  .input-text {
+    left: 0;
+    top: 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(224, 215, 242,1); 
+    background-color: transparent;
+    color: rgba(224, 215, 242,1);
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 18px;
+    padding: 15px;
+    width: 320px;
+  }
+  input:focus + label {
+    top: -40px;
+    color: rgba(224, 215, 242,1);
+  }
+  input[type=text]:focus {
+    background-color: rgba(43,35,61,0.5);
+  }
+
+
+
+  /* The container must be positioned relative: */
+.custom-select {
+  position: relative;
+  font-family: 'Fira Sans', sans-serif;
+  color: rgba(224, 215, 242,1);
+  font-size: 18px;
+  padding: 15px;
+  width: 320px;
+  border-radius: 10px;
+  border: 1px solid rgba(224, 215, 242,1); 
+  background-color: transparent;
+}
+
+.custom-select select {
+  display: none; /*hide original SELECT element: */
+}
+
+.select-selected {
+  background-color: none;
+  border:  1px solid rgba(224, 215, 242,1); 
+  border-radius: 10px;
+}
+
+/* Style the arrow inside the select element: */
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 22px;
+  right: 15px;
+  width: 0;
+  height: 0;
+  border: 10px solid rgba(224, 215, 242,1);
+  border-color: gray transparent transparent transparent;
+}
+
+/* Point the arrow upwards when the select box is open (active): */
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent gray transparent;
+  top: 10px;
+}
+
+/* style the items (options), including the selected item: */
+.select-items div,.select-selected {
+  color:  gray;
+  border: 1px solid transparent;
+  /*border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;*/
+  cursor: pointer;
+}
+
+/* Style items (options): */
+.select-items {
+  position: absolute;
+  background-color:rgba(224, 215, 242,1);
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  border-radius: 10px;
+  border: 10px solid rgba(224, 215, 242,1);
+}
+
+/* Hide the items when the select box is closed: */
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+  .or{
+    font-family: 'Fira Sans', sans-serif;
+    color:rgba(224, 215, 242,1);
+    font-size: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .button2{
+    margin-top: 35px;
+    width: 150px; ;
+    background-color: rgba(224, 215, 242,1);
+    border: none;
+    border-radius: 10px;
+    color: rgba(43,35,61,1);
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 24px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    cursor: pointer;
+    display: block;
+    margin-left: 170px;
+  }
+  .button2:hover{
+    margin-top: 35px;
+    width: 150px; ;
+    background-color: rgba(43,35,61,1);
+    border: none;
+    border-radius: 10px;
+    color: rgba(224, 215, 242,1);
+    font-weight: bo;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 24px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    cursor: pointer;
+    display: block;
+    margin-left: 170px;
+  }
+  .forgot{
+    font-family: 'Fira Sans', sans-serif;
+    color:rgba(224, 215, 242,1);
+    font-size: 18px;
+    margin-left: 180px;
+    margin-top: 10px;
+  }
+  b-logo{
+    width:100px;
+    height: auto;
+    margin: auto;
+}
+.maddeler{
+    display: flex;
+    margin: auto;
+}
+.maddeler ul a{
+    font-size: 18px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+}
+.maddeler ul a:hover{
+    font-weight: bold;
+    transform: scale(1.5);
+}
+.social-media{
+    display: flex;
+    margin: auto;
+}
+.social-media ul a {
+    color: white;
+    font-size: 18px;
+    padding: 20px;
+}
+.social-media ul a:hover i{
+    transform: scale(1.5);
+}
+.en-alt{
+    display: flex;
+    width: 1450px;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 85px;
+}
+footer{
+    display:inline-block;
+    width: 1450px;
+}
