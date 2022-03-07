@@ -7,7 +7,7 @@ html {
     scroll-behavior: smooth;
   }
 body{
-    background: url(../images/1920back.png) no-repeat;
+    background: url(images/1920back.png) no-repeat;
     width: 1920px;
     height: 2945px;
     padding-left: 235px;
