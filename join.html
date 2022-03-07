@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/join.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300&family=Fira+Sans:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5ce999ceac.js" crossorigin="anonymous"></script>
+    <title>Join a Session</title>
+</head>
+<body>
+    <header>
+        <img src="images/mor-logo.png" alt="logo" style="padding-right: 250px;padding-left: 50px;">
+        <div class="nav-menu">
+            <li>
+                <ul class="ul1"><a href="#">About Us </a></ul>
+                <ul>
+                    <div class="dropdown">
+                        <button class="dropbtn">Meetings <i class="fas fa-chevron-down"></i></button>
+                        <div class="dropdown-content">
+                        <a href="#">Conferences</a>
+                        <a href="#">Personal Meetings</a>
+                        </div>
+                      </div>
+                </ul>
+                <ul class="ul1"><a href="#">How It Works?</a></ul> 
+            </li>
+        </div>
+    </header>
+    <main>
+        <div class="all">
+           <div class="sign-up-yazi">
+                <h2 class="create">
+                Do you want to create you meeting? <br>
+                <b><ins><i>Sign Up</i></ins></b> 
+                to create meetings.</h2>
+                <a href="login.html" target="_blank" class="button">Sign Up</a>
+            </div>
+            <div class="login">
+                <h2 class="giris">Join a Session</h2>
+                <form>
+                    <div class="custom-select" >
+                        <select class="bilgi" id="language" name="language">
+                            <option value="Turkish">Turkish</option>
+                            <option value="English">English</option>
+                            <option value="German">German</option>
+                            <option value="Spanish">Spanish</option>
+                            <option value="French">French</option>
+                            <option value="Italian">Italian</option>
+                        </select> 
+                    </div>
+                    <div class="field">
+                        <input type="text" class="input-text">
+                        <label>Session ID</label>
+                    </div>
+                    <div class="field">
+                        <input type="text" class="input-text">
+                        <label>Passcode</label>
+                    </div>
+                    <div class="field">
+                        <input type="text" class="input-text">
+                        <label>Name Surname</label>
+                    </div>
+                    <!--<input style="margin-top: 20px;" class="bilgi" type="text" id="google" name="googleile" placeholder="Session ID">
+                    <input style="margin-top: 20px;" class="bilgi" type="text" id="google" name="googleile" placeholder="Passcode">
+                    <input style="margin-top: 20px;" class="bilgi" type="text" id="google" name="googleile" placeholder="Name Surname">-->
+                    <a href="login.html" target="_blank" class="button2">Sign In</a>
+                </form>
+            </div> 
+        </div> 
+    </main>
+    <footer>
+        <div class="en-alt">
+            <img src="images/beyaz-logo.png" class="b-logo">
+            <li class="maddeler">
+                <ul><a href="#">Terms of Services</a></ul>
+                <ul><a href="#">FAQ</a></ul>
+                <ul><a href="#">Privacy Policy</a></ul>
+            </li>
+            <li class="social-media">
+                <ul><a href="#"><i class="fab fa-instagram"></i></a></ul>
+                <ul><a href="#"><i class="fab fa-twitter"></i></a></ul>
+                <ul><a href="#"><i class="fab fa-facebook-f"></i></a></ul>
+                <ul><a href="#"><i class="fab fa-linkedin-in"></i></a></ul>
+            </li>
+        </div>
+    </footer>
+</body>
+<script src="join.js"></script>
+</html>
