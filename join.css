@@ -5,7 +5,7 @@
 }
 body{
     overflow: hidden;
-    background: url(../images/small1920.png) no-repeat;
+    background: url(images/small1920.png) no-repeat;
     width: 1920px;
     height: 925px;
     padding-left: 235px;
